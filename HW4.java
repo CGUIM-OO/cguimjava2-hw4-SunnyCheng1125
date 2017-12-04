@@ -21,6 +21,7 @@ public class HW4 {
 		player2Card.add(deck.getOneCard(true));
 		player2Card.add(deck.getOneCard(true));
 		player2.setOneRoundCard(player2Card);
+		
 		boolean hit=false;
 		do{
 			hit=player1.hitMe(); //this
